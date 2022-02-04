@@ -4,6 +4,6 @@ import org.junit.*;
 public class skilldemotest {
     @Test
     public void even(){
-        assertEquals(true, skilldemo.even(1));
+        assertTrue(skilldemo.even(1));
     }
 }
